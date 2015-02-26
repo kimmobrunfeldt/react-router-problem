@@ -3,7 +3,7 @@ var React = require('react');
 var ReactRouter = require('react-router');
 
 var routes = require('./routes.jsx');
-ReactRouter.run(routes, '/login', function(Handler, state) {
+ReactRouter.run(routes, '/notfound', function(Handler, state) {
     // This does not work
     Handler.a();
 
